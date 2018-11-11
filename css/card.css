@@ -1,0 +1,88 @@
+.machineCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.machineCards .machineCard {
+    border-bottom: 1px solid #bbbbbb;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.imgContainer {
+    padding-top: 5px;
+}
+
+.imgContainer .imgMachine {
+    height: 100px;
+    border-radius: 10px;
+}
+
+.machineContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.machineStatusContainer {
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.machineStatusContainer .machineType {
+    font-size: 22px;
+    margin-bottom: 10%;
+}
+
+.machineStatusContainer .machineStatus {
+    font-size: 18px;
+    color: grey;
+}
+
+.machineContainer .machineDatasContainer {
+    left: 200px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.machineDatasContainer .machineDataContainer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 15px;
+}
+
+ .machineId {
+    font-size: 18px;
+}
+
+ .machineRunCount {
+    border: 2px solid;
+    border-radius: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 18px;
+    color: #5a4ab5;
+ }
+
+button {
+    all: unset;
+    background-color: white;
+    color: #5a4ab5;
+    border: 2px solid #5a4ab5;
+    padding: 10px 10px;
+    font-size: 18px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
